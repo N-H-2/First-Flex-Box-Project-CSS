@@ -2,11 +2,12 @@
 <html>
   <head>
     <title>Flexbox Pricing Table</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
-      rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Sono:wght@400;700&display=swap"
+    rel="stylesheet"
     />
     <style>
       body,html {
@@ -65,14 +66,15 @@
         border-radius: 5px;
       }
 
-      /* Hint: What can you do with a media query and flexbox? */
       @media (max-width: 1250px) {
 
         .pricing-container {
         flex-direction: column;
         padding: 2rem;
         justify-content: flex-start;
+        align-items: center;
         }
+
         .pricing-plan {
           flex: none;
         }
